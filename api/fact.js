@@ -1,4 +1,5 @@
 // api/fact.js
+console.log("API /api/fact was called");
 
 const facts = require('./facts.json'); 
 
