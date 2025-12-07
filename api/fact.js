@@ -22,20 +22,20 @@ module.exports = (req, res) => {
     // 1b. Add a fail-safe check for the 'text' property
     const factText = fact && fact.text ? fact.text : "Error loading fact text.";
     
-    // const factSource = fact.source; // REMOVED: No longer needed
-
     // 2. Define the styling constants
     const width = 650;
-    const height = 180; // Increased height to accommodate the title and margin
-    const bgColor = '#1E1E2E';       // Dark background (like VS Code/GitHub Dark)
-    const titleColor = '#F2793C';    // Orange for the flame emoji/title (Approximation)
-    const borderColor = '#343A40';  // Darker gray for the subtle border/separator
-    const quoteColor = '#8BC34A';    // Green for the quote marks (Approximation)
-    const textColor = '#EEEEEE';     // Light text color
-    const titleText = 'Random IT Facts'; // CHANGED TITLE to match your header
-    // ... rest of the code remains the same (SVG template)
+    const height = 180; 
     
-    // 3. Construct the SVG content (This section is unchanged from yours)
+    // --- STYLE CHANGES MADE HERE ---
+    const bgColor = '#17171B';       // Slightly darker background
+    const titleColor = '#BB86FC';    // Light Purple for the title (Dev quote style)
+    const borderColor = '#343A40';   
+    const quoteColor = '#8BC34A';    
+    const textColor = '#EEEEEE';     
+    const titleText = 'Random IT Facts'; 
+    // --- END STYLE CHANGES ---
+
+    // 3. Construct the SVG content
     const svg = `
     <svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" fill="none" xmlns="http://www.w3.org/2000/svg">
     
@@ -51,9 +51,8 @@ module.exports = (req, res) => {
         ">
             <span style="font-size: 20px; line-height: 1; margin-right: 8px;">🔥</span>
             <h2 style="
-            color: ${textColor}; 
-            font-size: 16px; 
-            font-weight: 500; 
+            color: ${titleColor};  font-size: 16px; 
+            font-weight: 600; 
             margin: 0;
             ">
             ${titleText}
@@ -76,8 +75,7 @@ module.exports = (req, res) => {
             <p style="
             color: ${textColor}; 
             font-size: 22px; 
-            font-weight: 500; 
-            line-height: 1.4; 
+            font-weight: 400;  font-style: italic; line-height: 1.4; 
             margin: 0;
             padding: 0;
             text-align: left;
