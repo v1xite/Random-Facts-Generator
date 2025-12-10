@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Theme Gallery</title>
+    <script>
+    function copyToClipboard(themeName) {
+        // Construct the full URL for the fact generator
+        const themeLink = `https://random-facts-generator-two.vercel.app/api/fact?theme=${themeName}`;
+        
+        // Create a temporary input element to hold the link
+        const tempInput = document.createElement('input');
+        tempInput.value = themeLink;
+        document.body.appendChild(tempInput);
+        
+        // Select and copy the text
+        tempInput.select();
+        document.execCommand('copy');
+        
+        // Clean up and notify
+        document.body.removeChild(tempInput);
+        alert(`Copied link for theme: ${themeName}`);
+    }
+    </script>
+</head>
+<body>
+
+    <h2>🌑 Dark Themes</h2>
+    <table>
+        <tr>
+            <td align="center">
+                <a href="#" onclick="copyToClipboard('dark_blue'); return false;">
+                    <img src="./assets/themes/dark_blue.svg" alt="dark_blue" width="260"/>
+                    <br/><code>dark_blue</code>
+                </a>
+            </td>
+            </tr>
+    </table>
+
+</body>
+</html>
