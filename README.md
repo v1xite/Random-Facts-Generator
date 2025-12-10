@@ -1,11 +1,13 @@
 <h1 align="center"> <img src="assets/logo/wave.png" height="35px" width="35px"> </h1>
 
 
-### 🎨 Interactive Fact Generator Themes
+## 📋 Usage notes
 
-**✨ Click below to view the full gallery where you can copy the link with a single click! ✨**
+- Insert this anywhere in your README:
+  ![Random Fact](https://random-facts-generator-two.vercel.app/api/fact?theme=dark_blue)
 
-[**View Interactive Theme Gallery**](https://v1xite.github.io/Random-Facts-Readme/themes.html)
+- Change the theme by changing last "theme=" part for example theme=crystals
+- You can see all themes bellow
 
 
 ## 🕶 Dark Themes
