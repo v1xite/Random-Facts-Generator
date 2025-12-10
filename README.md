@@ -24,6 +24,16 @@
 
 
 
+## 📋 Usage notes
+
+- Insert this anywhere in your README:
+
+  [![Random IT Fact](https://random-facts-generator-two.vercel.app/api/fact?theme=dark_blue)](REPO_LINK_MINE)
+
+- Change the theme by editing the `theme=` query parameter.  
+  Example: `theme=crystals`
+
+
 
 
 ## 🕶 Dark Themes
