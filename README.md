@@ -5,7 +5,7 @@
 
 **✨ Click below to view the full gallery where you can copy the link with a single click! ✨**
 
-[**View Interactive Theme Gallery**](https://yourusername.github.io/your-repository-name/themes.html)
+[**View Interactive Theme Gallery**](https://v1xite.github.io/Random-Facts-Readme/themes.html)
 
 
 ## 🕶 Dark Themes
