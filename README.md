@@ -6,7 +6,7 @@
 
 </p>
 
-<img align="center" src="assets/github_logo/v1xite_github2.png" width="10%" />
+<img src="assets/github_logo/v1xite_github2.png" width="10%" class="center-image"/>
     
 
 ## 📋 Usage notes
