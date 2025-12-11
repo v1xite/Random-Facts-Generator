@@ -12,7 +12,8 @@
 
 ---
 
-<div align="center"> ## 🕶 Dark Themes
+<div align="center"> 
+  ## 🕶 Dark Themes
 
 <table>
   <tr>
