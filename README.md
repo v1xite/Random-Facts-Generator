@@ -6,10 +6,7 @@
 
 </p>
 
-<p align="center">
-  <img src="assets/github_logo/v1xite_github3.png" width="10%" />
-  <img src="assets/github_logo/v1xite_javascript.png" width="10%" />
-</p>
+
 
 <p align="center">
   <a href="https://github.com/v1xite">
@@ -18,6 +15,7 @@
   <img src="assets/github_logo/v1xite_javascript.png" width="10%" alt="JavaScript Logo" />
 </p>
     
+
 
 ## 📋 Usage notes
 
@@ -28,7 +26,9 @@
 - To use another theme: change the value of theme= (example: theme=crystals)
 - All available themes are shown below.
 
+
 ---
+
 
 <div align="center"> 
   
