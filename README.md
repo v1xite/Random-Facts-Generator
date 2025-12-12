@@ -254,7 +254,7 @@
 
 ---
 
-#### Inspired from: 
+### Inspired from: 
 [github-readme-quotes](https://github.com/PiyushSuthar/github-readme-quotes?tab=readme-ov-file)
 
 ---
