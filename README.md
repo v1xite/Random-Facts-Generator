@@ -276,56 +276,5 @@ If you find this useful, consider leaving a star — it truly helps the project 
 💻 [GitHub](https://github.com/v1xite)
 
 <p align="center"> 
-  
-Made by: v1xite and JavaScript
-
-Made with ❤️ by [v1xite](https://github.com/v1xite)
-
-<p align="right">Made by: <a href="https://github.com/v1xite">v1xite</a> · JavaScript</p>
-
-<sub>© v1xite · Built with JavaScript</sub>
-
-[![made-by](https://img.shields.io/badge/made%20by-v1xite-blue)](https://github.com/v1xite)
-
-<footer style="text-align:center; padding:12px; font-size:14px;">
-  Made by <a href="https://github.com/v1xite" rel="noopener noreferrer">v1xite</a> · JavaScript
-</footer>
-
-<footer class="site-footer">Made by <a href="https://github.com/v1xite">v1xite</a> · JavaScript</footer>
-
-<style>
-.site-footer{
-  text-align:center;
-  padding:10px;
-  border-top:1px solid rgba(0,0,0,0.06);
-  font-size:13px;
-  color:#4b5563;
-}
-.site-footer a{ text-decoration:none; font-weight:600; color:inherit; }
-</style>
-
-
-<script>
-  (function(){
-    const footer = document.createElement('footer');
-    footer.style.textAlign = 'center';
-    footer.style.padding = '10px';
-    footer.style.fontSize = '13px';
-    footer.innerHTML = 'Made by <a href="https://github.com/v1xite" target="_blank" rel="noopener">v1xite</a> · JavaScript';
-    document.body.appendChild(footer);
-  })();
-</script>
-
-
-// addCredit.js
-export function addCredit(selector = 'body') {
-  const el = document.querySelector(selector);
-  if (!el) return;
-  const d = document.createElement('div');
-  d.className = 'credit';
-  d.innerHTML = `Made by <a href="https://github.com/v1xite" target="_blank">v1xite</a>`;
-  el.appendChild(d);
-}
-
-
+  [![made-by](https://img.shields.io/badge/made%20by-v1xite-blue?logo=javascript&logoColor=white)](https://github.com/v1xite)
 </p>
